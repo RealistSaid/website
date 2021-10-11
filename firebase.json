@@ -1,13 +1,10 @@
-// firebase.json
-
 {
   "hosting": {
-    "public": "dist",
-    "cleanUrls": "true",
+    "public": "y",
     "ignore": [
       "firebase.json",
       "**/.*",
-      "**/node_modules/**",
+      "**/node_modules/**"
     ]
   }
 }
