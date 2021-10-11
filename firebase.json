@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "gs://code1-7bafa.appspot.com/",
+    "public": "y",
     "ignore": [
       "firebase.json",
       "**/.*",
