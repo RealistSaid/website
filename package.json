@@ -1,13 +1,7 @@
 {
-  "lockfileVersion": 1
-}
 
-/* .package.json */
-
-{
-  ...
   "scripts": {
-    ...
+  
     "clean": "npx del dist",
     "prebuild": "npm run clean",
     "build:prod": "ELEVENTY_ENV=prod npx eleventy",
