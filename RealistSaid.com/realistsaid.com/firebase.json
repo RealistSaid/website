@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "realistsaid.com",
+    "public": "RealistSaid.com",
     "ignore": [
       "firebase.json",
       "**/.*",
