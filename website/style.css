@@ -54,6 +54,13 @@ nav a {
 
 }
 
-.element{
-  margin-left: 100px;
+
+.element1 {
+  display: inline-flex;
+  padding-right: 100px;
+  
+}
+
+.element2 {
+ display: inline-flex;
 }
