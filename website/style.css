@@ -1,7 +1,7 @@
-.header{
+header{
   background-image: url('https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_960_720.jpg');
   text-align: center;
-  margin-top: -21px;
+  min-height: 10vh;
 }
 
 .about-me{
@@ -21,6 +21,8 @@ h1{
   font-weight: 900;
   letter-spacing: 2px;
   font-size:110%;
+  margin: 0;
+  padding: 0;
 }
 
 body{
@@ -50,7 +52,7 @@ nav a {
   text-decoration:solid;
   font-size: 27px;
   border-bottom: 3px solid transparent;
-  display: flex; justify-content:space-evenly;
+  display: flex; justify-content: space-evenly;
 
 }
 
