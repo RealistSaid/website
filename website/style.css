@@ -1,7 +1,12 @@
 header{
-  background-image: url('https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_960_720.jpg');
+  min-height: 15vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(73, 59, 192, 0.7),rgba(143, 1, 1, 0.7)),url('https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_960_720.jpg');
   text-align: center;
-  min-height: 10vh;
+  background-position: center;
+  background-size: cover;
+  position:relative;
+
 }
 
 .about-me{
@@ -27,10 +32,10 @@ h1{
 
 body{
   background-image: url("https://dslr.no/wp-content/uploads/2017/04/Elegant_Background-10.jpg");
-    background-repeat: repeat;
-    background-position: center;
-    background-size:10000px;
-  
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  position:relative;
 }
 
 nav{
