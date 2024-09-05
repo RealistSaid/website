@@ -1,0 +1,89 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  min-height: 15vh;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(73, 59, 192, 0.7),
+      rgba(143, 1, 1, 0.7)
+    ),
+    url("https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_960_720.jpg");
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.about-me {
+  font-size: 20px;
+  opacity: 1;
+  color: rgb(255, 255, 255);
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Noto Sans Mono";
+  font-weight: 1000;
+}
+
+* {
+  font-family: Oswald;
+  font-weight: 1000;
+  letter-spacing: 2px;
+  font-size: 120%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://dslr.no/wp-content/uploads/2017/04/Elegant_Background-10.jpg");
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  position: fixed;
+  background-color: red;
+  position: relative;
+  border: 3px dashed black;
+  border-radius: 32%;
+  margin-top: -20px;
+  height: 64px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+nav a {
+  color: #050505;
+  text-align: center;
+  padding: 1% 1px;
+  text-decoration: solid;
+  font-size: 27px;
+  border: 3px solid black;
+
+  display: flex;
+  justify-content: space-evenly;
+  margin: 8px;
+}
+
+.element1 {
+  display: inline-flex;
+  padding-right: 100px;
+}
+
+.element2 {
+  display: inline-flex;
+}
+
+#gif-loud {
+  border: 3px solid rgb(0, 0, 0);
+}
